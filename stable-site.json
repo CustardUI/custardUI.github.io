@@ -1,0 +1,28 @@
+{
+  "baseUrl": "",
+  "timeZone": "Asia/Singapore",
+  "titlePrefix": "",
+  "titleSuffix": "",
+  "style": {
+    "codeTheme": "light"
+  },
+  "pages": [
+    {
+      "src": "index.md"
+    },
+    {
+      "glob": [
+        "**/index.md",
+        "**/*.md"
+      ]
+    }
+  ],
+  "plugins" : [
+    "customviews"
+  ],
+  "deploy": {
+    "message": "Update main site.",
+    "repo": "https://github.com/customviews-js/customviews-js.github.io.git",
+    "branch": "master"
+  }
+}

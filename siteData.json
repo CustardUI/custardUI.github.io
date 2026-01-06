@@ -1,0 +1,262 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "README.md",
+      "headings": {
+        "custom-views-library-documentation": "Custom Views Library Documentation",
+        "quick-start": "Quick Start",
+        "for-development": "For Development",
+        "for-production-build": "For Production Build",
+        "interactive-demo": "Interactive Demo",
+        "development-notes": "Development Notes"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "about.md",
+      "title": "About Page",
+      "headings": {
+        "about-page": "About Page"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/devGuide.md",
+      "title": "Developer Guide",
+      "headings": {
+        "developer-guide": "Developer Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/framework.md",
+      "title": "Architectural Overview",
+      "headings": {
+        "architectural-overview": "Architectural Overview",
+        "why-svelte": "Why Svelte?"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/index.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/releases.md",
+      "title": "Developer Guide - Making Releases",
+      "headings": {
+        "release-workflow": "Release Workflow",
+        "prerequisites": "Prerequisites",
+        "1-beta-release-experimental": "1. Beta Release (Experimental)",
+        "using-the-beta-release": "Using the beta release",
+        "2-production-release-stable": "2. Production Release (Stable)",
+        "using-the-production-release": "Using the production release"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/shareFunction.md",
+      "title": "Developer Guide - Share Functionality",
+      "headings": {
+        "share-function": "Share Function",
+        "architecture": "Architecture",
+        "1-state-management-share-store-ts": "1. State Management (share-store.ts)",
+        "2-the-overlay-shareoverlay-svelte": "2. The Overlay (ShareOverlay.svelte)",
+        "3-element-location-domelementlocator-ts": "3. Element Location (DomElementLocator.ts)",
+        "usage-flow": "Usage Flow"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/cvtest.md",
+      "title": "Developer Guide - Tests",
+      "headings": {
+        "tests": "Tests"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/focus-test.md",
+      "title": "Developer Guide - Focus and Sharing Tests",
+      "headings": {
+        "focus-and-sharing-tests": "Focus and Sharing Tests",
+        "intro-section": "Introduction",
+        "step-1": "Step 1: Install Dependencies",
+        "step-2": "Step 2: Configure the Plugin",
+        "troubleshooting": "Troubleshooting",
+        "error-1": "Error: Build Fails",
+        "final-section": "Final Section"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/localComponents.md",
+      "title": "Developer Guide - Local Components",
+      "headings": {
+        "local-components": "Local Components",
+        "local-components-2": "Local Components",
+        "local-toggle": "Local Toggle",
+        "local-tab-groups": "Local Tab Groups",
+        "further-testing": "Further Testing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/tests/tabs.md",
+      "title": "Developer Guide - Tabs",
+      "headings": {
+        "tabs": "Tabs",
+        "fruits-tabs": "Fruits Tabs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Custom Views Library - Interactive Documentation & Demo",
+      "headings": {
+        "customviews": "CustomViews",
+        "introduction": "Introduction",
+        "quick-demo": "Quick Demo",
+        "toggles": "Toggles",
+        "tabs": "Tabs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/components/all.md",
+      "title": "Components",
+      "headings": {
+        "components": "Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/components/settings.md",
+      "title": "CustomViews - Settings",
+      "headings": {
+        "settings-dialog": "Settings Dialog",
+        "intro-callout": "Intro Callout",
+        "conditional-section-display": "Conditional Section Display",
+        "configuration": "Configuration",
+        "settings-options": "Settings Options",
+        "integration-with-toggles-and-tabs": "Integration with Toggles and Tabs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/components/share.md",
+      "title": "User Guide - Sharing",
+      "headings": {
+        "share-mode-and-amp-focus-view": "Share Mode &amp; Focus View",
+        "sharing-content": "Sharing Content",
+        "1-activating-share-mode": "1. Activating Share Mode",
+        "2-selecting-elements": "2. Selecting Elements",
+        "3-smart-selection-guidelines": "3. Smart Selection Guidelines",
+        "4-generating-the-link": "4. Generating the Link",
+        "exiting": "Exiting",
+        "focus-view-recipient-experience": "Focus View (Recipient Experience)",
+        "customizing-share-behavior-to-refine": "Customizing Share Behavior ( TO REFINE )"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/components/tabs.md",
+      "title": "User Guide - Tabs",
+      "headings": {
+        "basic-example": "Basic Example",
+        "advanced-example-with-badges": "Advanced Example with Badges",
+        "using-icons-in-headers": "Using Icons in Headers",
+        "tabs": "Tabs",
+        "no-id-tabs": "No-ID Tabs",
+        "multi-id-tabs": "Multi-ID Tabs",
+        "setting-the-default-tab": "Setting the Default Tab",
+        "header-syntax-with-rich-formatting": "Header Syntax with Rich Formatting",
+        "syntax-and-amp-rules": "Syntax &amp; Rules",
+        "attributes-and-amp-options": "Attributes &amp; Options",
+        "cv-tabgroup-attributes": "&lt;cv-tabgroup&gt; Attributes",
+        "cv-tab-attributes": "&lt;cv-tab&gt; Attributes",
+        "cv-tab-header-attributes": "&lt;cv-tab-header&gt; Attributes",
+        "cv-tab-body-attributes": "&lt;cv-tab-body&gt; Attributes",
+        "configuration": "Configuration",
+        "json-configuration-option-types": "JSON Configuration Option Types",
+        "global-vs-local-tab-groups": "Global vs. Local Tab Groups",
+        "defining-local-components": "Defining Local Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/components/toggles.md",
+      "title": "CustomViews - Toggle Component",
+      "headings": {
+        "toggles": "Toggles",
+        "multi-id-toggles": "Multi-ID Toggles",
+        "toggles-with-peek-mode": "Toggles with Peek Mode",
+        "attributes-and-amp-options-of-cv-toggle": "Attributes &amp; Options of &lt;cv-toggle&gt;",
+        "configuration": "Configuration",
+        "key-configuration-fields-in-customviews-config-json-for-toggles": "Key Configuration Fields in customviews.config.json for Toggles",
+        "visibility-resolution-order": "Visibility Resolution Order",
+        "global-vs-local-toggles": "Global vs. Local Toggles",
+        "registering-local-toggles-for-settings": "Registering Local Toggles for Settings",
+        "troubleshooting": "Troubleshooting"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/configuration.md",
+      "title": "User Guide - Configuration",
+      "headings": {
+        "configuration-reference": "Configuration Reference",
+        "configuration-file-customviews-config-json": "Configuration File (customviews.config.json)",
+        "basic-structure": "Basic Structure",
+        "summary-of-configuration-options": "Summary of Configuration Options",
+        "core-configuration-config": "Core Configuration (config)",
+        "tab-group-configuration": "Tab Group Configuration",
+        "toggles-configuration": "Toggles Configuration",
+        "default-state-behavior": "Default State Behavior",
+        "global-options": "Global Options",
+        "settings-configuration-settings": "Settings Configuration (settings)",
+        "script-tag-attributes": "Script Tag Attributes",
+        "assets-configuration-assets-json": "Assets Configuration (assets.json)",
+        "asset-properties": "Asset Properties"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/gettingStarted.md",
+      "title": "User Guide - Getting Started",
+      "headings": {
+        "getting-started": "Getting Started",
+        "method-1-cdn-script-tag-recommended": "Method 1: CDN / Script Tag (Recommended)",
+        "method-2-install-via-npm": "Method 2: Install via NPM",
+        "verify-installation": "Verify Installation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/index.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "userGuide/integrations/setupWithMarkbind.md",
+      "title": "Installation (MarkBind Setup)",
+      "headings": {
+        "setting-up-customviews-in-a-markbind-site": "Setting up CustomViews in a MarkBind Site",
+        "1-create-the-plugin-file": "1. Create the Plugin File",
+        "2-register-the-plugin-in-site-json": "2. Register the Plugin in site.json",
+        "3-create-customviews-config-json": "3. Create customviews.config.json",
+        "4-verify-installation": "4. Verify Installation",
+        "example-usage-in-markbind-pages": "Example Usage in MarkBind Pages"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "baseUrl": "/customviews",
+  "timeZone": "Asia/Singapore",
+  "titlePrefix": "",
+  "titleSuffix": "",
+  "ignore": [
+    "_markbind/layouts/*",
+    "_markbind/logs/*",
+    "_site/*",
+    "site.json",
+    "*.md",
+    "*.njk",
+    ".git/*",
+    ".gitignore",
+    "node_modules/*"
+  ],
+  "pagesExclude": [
+    "node_modules/*"
+  ],
+  "pages": [
+    {
+      "src": "index.md"
+    },
+    {
+      "glob": [
+        "**/index.md",
+        "**/*.md"
+      ]
+    }
+  ],
+  "style": {
+    "codeTheme": "light"
+  },
+  "plugins": [
+    "customviews"
+  ],
+  "deploy": {
+    "message": "Site Update."
+  }
+}

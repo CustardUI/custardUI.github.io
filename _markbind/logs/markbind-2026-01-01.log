@@ -1,0 +1,416 @@
+2026-01-01T08:33:36.869Z - info: Website generation started at 4:33:36 PM
+2026-01-01T08:33:36.902Z - info: Building assets...
+2026-01-01T08:33:36.923Z - info: Assets built
+2026-01-01T08:33:36.924Z - info: Generating pages...
+2026-01-01T08:33:37.035Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.037Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.037Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.037Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.155Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.155Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.193Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.193Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.280Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.370Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.387Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.388Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.443Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.474Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.475Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.482Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.513Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.539Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.543Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.560Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.560Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T08:33:37.568Z - info: Pages built
+2026-01-01T08:33:37.670Z - info: Site data built
+2026-01-01T08:33:37.670Z - info: Website generation complete! Total build time: 0.867s
+2026-01-01T08:33:37.689Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T08:33:37.689Z - info: Press CTRL+C to stop ...
+2026-01-01T08:33:45.579Z - info: Website generation started at 4:33:45 PM
+2026-01-01T08:33:45.607Z - info: Building assets...
+2026-01-01T08:33:45.626Z - info: Assets built
+2026-01-01T08:33:45.627Z - info: Generating pages...
+2026-01-01T08:33:46.127Z - info: Pages built
+2026-01-01T08:33:46.168Z - info: Site data built
+2026-01-01T08:33:46.168Z - info: Website generation complete! Total build time: 0.627s
+2026-01-01T08:33:46.183Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T08:33:46.183Z - info: Press CTRL+C to stop ...
+2026-01-01T08:35:10.799Z - info: Website generation started at 4:35:10 PM
+2026-01-01T08:35:10.829Z - info: Building assets...
+2026-01-01T08:35:10.850Z - info: Assets built
+2026-01-01T08:35:10.850Z - info: Generating pages...
+2026-01-01T08:35:11.321Z - info: Pages built
+2026-01-01T08:35:11.409Z - info: Site data built
+2026-01-01T08:35:11.409Z - info: Website generation complete! Total build time: 0.647s
+2026-01-01T08:35:11.423Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T08:35:11.423Z - info: Press CTRL+C to stop ...
+2026-01-01T08:48:12.676Z - info: Website generation started at 4:48:12 PM
+2026-01-01T08:48:12.705Z - info: Building assets...
+2026-01-01T08:48:12.727Z - info: Assets built
+2026-01-01T08:48:12.728Z - info: Generating pages...
+2026-01-01T08:48:13.238Z - info: Pages built
+2026-01-01T08:48:13.333Z - info: Site data built
+2026-01-01T08:48:13.334Z - info: Website generation complete! Total build time: 0.695s
+2026-01-01T08:48:13.349Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T08:48:13.349Z - info: Press CTRL+C to stop ...
+2026-01-01T10:36:17.393Z - info: Website generation started at 6:36:17 PM
+2026-01-01T10:36:17.427Z - info: Building assets...
+2026-01-01T10:36:17.447Z - info: Assets built
+2026-01-01T10:36:17.448Z - info: Generating pages...
+2026-01-01T10:36:17.937Z - info: Pages built
+2026-01-01T10:36:18.036Z - info: Site data built
+2026-01-01T10:36:18.036Z - info: Website generation complete! Total build time: 0.711s
+2026-01-01T10:36:18.052Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T10:36:18.052Z - info: Press CTRL+C to stop ...
+2026-01-01T10:37:34.774Z - info: [6:37:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/index.md
+2026-01-01T10:37:35.777Z - info: Rebuilding 1 pages
+2026-01-01T10:37:35.797Z - info: Site data built
+2026-01-01T10:37:35.797Z - info: Pages rebuilt
+2026-01-01T10:37:35.797Z - info: Website regeneration complete! Total build time: 0.021s
+2026-01-01T10:50:27.454Z - info: [6:50:27 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/index.md
+2026-01-01T10:50:28.458Z - info: Rebuilding 1 pages
+2026-01-01T10:50:28.491Z - info: Site data built
+2026-01-01T10:50:28.491Z - info: Pages rebuilt
+2026-01-01T10:50:28.491Z - info: Website regeneration complete! Total build time: 0.034s
+2026-01-01T10:58:22.869Z - info: Website generation started at 6:58:22 PM
+2026-01-01T10:58:22.898Z - info: Building assets...
+2026-01-01T10:58:22.918Z - info: Assets built
+2026-01-01T10:58:22.918Z - info: Generating pages...
+2026-01-01T10:58:23.397Z - info: Pages built
+2026-01-01T10:58:23.480Z - info: Site data built
+2026-01-01T10:58:23.480Z - info: Website generation complete! Total build time: 0.666s
+2026-01-01T10:58:23.494Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T10:58:23.494Z - info: Press CTRL+C to stop ...
+2026-01-01T10:59:45.659Z - info: [6:59:45 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T10:59:46.663Z - info: Rebuilding 1 pages
+2026-01-01T10:59:46.724Z - info: Site data built
+2026-01-01T10:59:46.724Z - info: Pages rebuilt
+2026-01-01T10:59:46.724Z - info: Website regeneration complete! Total build time: 0.062s
+2026-01-01T11:00:33.786Z - info: [7:00:33 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:00:34.790Z - info: Rebuilding 1 pages
+2026-01-01T11:00:34.823Z - info: Site data built
+2026-01-01T11:00:34.823Z - info: Pages rebuilt
+2026-01-01T11:00:34.824Z - info: Website regeneration complete! Total build time: 0.034s
+2026-01-01T11:01:10.022Z - info: [7:01:10 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:01:11.024Z - info: Rebuilding 1 pages
+2026-01-01T11:01:11.046Z - info: Site data built
+2026-01-01T11:01:11.047Z - info: Pages rebuilt
+2026-01-01T11:01:11.047Z - info: Website regeneration complete! Total build time: 0.023s
+2026-01-01T11:22:34.149Z - info: Website generation started at 7:22:34 PM
+2026-01-01T11:22:34.181Z - info: Building assets...
+2026-01-01T11:22:34.202Z - info: Assets built
+2026-01-01T11:22:34.202Z - info: Generating pages...
+2026-01-01T11:22:34.674Z - info: Pages built
+2026-01-01T11:22:34.760Z - info: Site data built
+2026-01-01T11:22:34.760Z - info: Website generation complete! Total build time: 0.654s
+2026-01-01T11:22:34.774Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T11:22:34.774Z - info: Press CTRL+C to stop ...
+2026-01-01T11:23:31.699Z - info: [7:23:31 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:23:32.703Z - info: Rebuilding 1 pages
+2026-01-01T11:23:32.741Z - info: Site data built
+2026-01-01T11:23:32.742Z - info: Pages rebuilt
+2026-01-01T11:23:32.742Z - info: Website regeneration complete! Total build time: 0.04s
+2026-01-01T11:39:19.356Z - info: Website generation started at 7:39:19 PM
+2026-01-01T11:39:19.388Z - info: Building assets...
+2026-01-01T11:39:19.407Z - info: Assets built
+2026-01-01T11:39:19.408Z - info: Generating pages...
+2026-01-01T11:39:19.884Z - info: Pages built
+2026-01-01T11:39:20.042Z - info: Site data built
+2026-01-01T11:39:20.042Z - info: Website generation complete! Total build time: 0.73s
+2026-01-01T11:39:20.056Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T11:39:20.056Z - info: Press CTRL+C to stop ...
+2026-01-01T11:42:36.822Z - info: Website generation started at 7:42:36 PM
+2026-01-01T11:42:36.852Z - info: Building assets...
+2026-01-01T11:42:36.873Z - info: Assets built
+2026-01-01T11:42:36.873Z - info: Generating pages...
+2026-01-01T11:42:37.342Z - info: Pages built
+2026-01-01T11:42:37.424Z - info: Site data built
+2026-01-01T11:42:37.424Z - info: Website generation complete! Total build time: 0.64s
+2026-01-01T11:42:37.437Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T11:42:37.437Z - info: Press CTRL+C to stop ...
+2026-01-01T11:46:13.838Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/about.md
+2026-01-01T11:46:13.839Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/README.md
+2026-01-01T11:46:13.839Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/cvtest.md
+2026-01-01T11:46:13.839Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/404.md
+2026-01-01T11:46:13.839Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/focus-test.md
+2026-01-01T11:46:13.839Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/releases.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/index.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/share.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/devGuide.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/userGuide.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/variables.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/devGuide.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/all.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/tabs.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/framework.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/footers/footer.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/404.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:46:13.840Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/tabs.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/index.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/localComponents.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/headers/header.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/integrations/setupWithMarkbind.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/index.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/default.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/configuration.md
+2026-01-01T11:46:13.841Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/widget.md
+2026-01-01T11:46:13.842Z - info: [7:46:13 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/boilerplates/codeAndOutputSeparate.md
+2026-01-01T11:46:14.863Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-01-01T11:46:14.863Z - info: Rebuilding 21 pages
+2026-01-01T11:46:15.229Z - info: Site data built
+2026-01-01T11:46:15.229Z - info: Pages rebuilt
+2026-01-01T11:46:15.229Z - info: Website regeneration complete! Total build time: 0.367s
+2026-01-01T11:46:34.175Z - info: [7:46:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/tabs.md
+2026-01-01T11:46:35.177Z - info: Rebuilding 1 pages
+2026-01-01T11:46:35.258Z - info: Site data built
+2026-01-01T11:46:35.258Z - info: Pages rebuilt
+2026-01-01T11:46:35.258Z - info: Website regeneration complete! Total build time: 0.082s
+2026-01-01T11:48:41.266Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/variables.md
+2026-01-01T11:48:41.267Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/default.md
+2026-01-01T11:48:41.267Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/404.md
+2026-01-01T11:48:41.267Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/devGuide.md
+2026-01-01T11:48:41.267Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/share.md
+2026-01-01T11:48:41.267Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/integrations/setupWithMarkbind.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/userGuide.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/headers/header.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/widget.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/footers/footer.md
+2026-01-01T11:48:41.268Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/boilerplates/codeAndOutputSeparate.md
+2026-01-01T11:48:41.367Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/index.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/index.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/all.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/index.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/cvtest.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/README.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/framework.md
+2026-01-01T11:48:41.368Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/configuration.md
+2026-01-01T11:48:41.369Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/localComponents.md
+2026-01-01T11:48:41.369Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/about.md
+2026-01-01T11:48:41.369Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/tabs.md
+2026-01-01T11:48:41.369Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/focus-test.md
+2026-01-01T11:48:41.369Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/releases.md
+2026-01-01T11:48:41.370Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/devGuide.md
+2026-01-01T11:48:41.370Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/404.md
+2026-01-01T11:48:41.370Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/tabs.md
+2026-01-01T11:48:41.370Z - info: [7:48:41 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-01T11:48:42.282Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-01-01T11:48:42.282Z - info: Rebuilding 21 pages
+2026-01-01T11:48:42.306Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.306Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.306Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.306Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.397Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.398Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.399Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.399Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.559Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.560Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.560Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.560Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.608Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.612Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.613Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.615Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.664Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.668Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.668Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.680Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.688Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:48:42.692Z - info: Site data built
+2026-01-01T11:48:42.693Z - info: Pages rebuilt
+2026-01-01T11:48:42.693Z - info: Website regeneration complete! Total build time: 0.412s
+2026-01-01T11:53:21.524Z - info: Website generation started at 7:53:21 PM
+2026-01-01T11:53:21.552Z - info: Building assets...
+2026-01-01T11:53:21.571Z - info: Assets built
+2026-01-01T11:53:21.572Z - info: Generating pages...
+2026-01-01T11:53:22.051Z - info: Pages built
+2026-01-01T11:53:22.135Z - info: Site data built
+2026-01-01T11:53:22.136Z - info: Website generation complete! Total build time: 0.652s
+2026-01-01T11:53:22.149Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T11:53:22.149Z - info: Press CTRL+C to stop ...
+2026-01-01T11:58:34.380Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/README.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/index.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/configuration.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/index.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/localComponents.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/all.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/devGuide.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/404.md
+2026-01-01T11:58:34.381Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/tabs.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/widget.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/cvtest.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/tests/focus-test.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/404.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/variables.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/userGuide.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/index.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/share.md
+2026-01-01T11:58:34.382Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/devGuide.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/about.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/footers/footer.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/headers/header.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/releases.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/integrations/setupWithMarkbind.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/layouts/default.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/devGuide/framework.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/components/tabs.md
+2026-01-01T11:58:34.383Z - info: [7:58:34 PM] Reload for file change: /Users/gerteck/dev/customviews/docs/_markbind/boilerplates/codeAndOutputSeparate.md
+2026-01-01T11:58:35.400Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-01-01T11:58:35.400Z - info: Rebuilding 21 pages
+2026-01-01T11:58:35.427Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.427Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.428Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.428Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.510Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.511Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.512Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.512Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.640Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.645Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.645Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.653Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.697Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.697Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.697Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.710Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.747Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.748Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.766Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.768Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.777Z - error: Failed to copy asset ../../../dist/custom-views.min.js for plugin customviews
+Error: ENOENT: no such file or directory, stat '/Users/gerteck/dev/customviews/dist/custom-views.min.js'
+2026-01-01T11:58:35.781Z - info: Site data built
+2026-01-01T11:58:35.781Z - info: Pages rebuilt
+2026-01-01T11:58:35.781Z - info: Website regeneration complete! Total build time: 0.382s
+2026-01-01T15:28:46.655Z - info: Website generation started at 11:28:46 PM
+2026-01-01T15:28:46.688Z - info: Building assets...
+2026-01-01T15:28:46.715Z - info: Assets built
+2026-01-01T15:28:46.715Z - info: Generating pages...
+2026-01-01T15:28:47.753Z - info: Pages built
+2026-01-01T15:28:48.198Z - info: Site data built
+2026-01-01T15:28:48.198Z - info: Website generation complete! Total build time: 1.603s
+2026-01-01T15:28:48.241Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:28:48.243Z - info: Press CTRL+C to stop ...
+2026-01-01T15:29:34.071Z - info: Website generation started at 11:29:34 PM
+2026-01-01T15:29:34.101Z - info: Building assets...
+2026-01-01T15:29:34.125Z - info: Assets built
+2026-01-01T15:29:34.126Z - info: Generating pages...
+2026-01-01T15:29:34.679Z - info: Pages built
+2026-01-01T15:29:34.882Z - info: Site data built
+2026-01-01T15:29:34.882Z - info: Website generation complete! Total build time: 0.848s
+2026-01-01T15:29:34.897Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:29:34.897Z - info: Press CTRL+C to stop ...
+2026-01-01T15:32:00.750Z - info: Website generation started at 11:32:00 PM
+2026-01-01T15:32:00.787Z - info: Building assets...
+2026-01-01T15:32:00.818Z - info: Assets built
+2026-01-01T15:32:00.818Z - info: Generating pages...
+2026-01-01T15:32:01.422Z - info: Pages built
+2026-01-01T15:32:01.516Z - info: Site data built
+2026-01-01T15:32:01.516Z - info: Website generation complete! Total build time: 0.805s
+2026-01-01T15:32:01.532Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:32:01.532Z - info: Press CTRL+C to stop ...
+2026-01-01T15:34:11.917Z - info: Website generation started at 11:34:11 PM
+2026-01-01T15:34:11.949Z - info: Building assets...
+2026-01-01T15:34:11.970Z - info: Assets built
+2026-01-01T15:34:11.971Z - info: Generating pages...
+2026-01-01T15:34:12.531Z - info: Pages built
+2026-01-01T15:34:12.654Z - info: Site data built
+2026-01-01T15:34:12.654Z - info: Website generation complete! Total build time: 0.78s
+2026-01-01T15:34:12.673Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:34:12.673Z - info: Press CTRL+C to stop ...
+2026-01-01T15:36:35.074Z - info: Website generation started at 11:36:35 PM
+2026-01-01T15:36:35.106Z - info: Building assets...
+2026-01-01T15:36:35.128Z - info: Assets built
+2026-01-01T15:36:35.129Z - info: Generating pages...
+2026-01-01T15:36:36.080Z - info: Pages built
+2026-01-01T15:36:36.495Z - info: Site data built
+2026-01-01T15:36:36.495Z - info: Website generation complete! Total build time: 1.459s
+2026-01-01T15:36:36.525Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:36:36.527Z - info: Press CTRL+C to stop ...
+2026-01-01T15:42:28.374Z - info: Website generation started at 11:42:28 PM
+2026-01-01T15:42:28.410Z - info: Building assets...
+2026-01-01T15:42:28.432Z - info: Assets built
+2026-01-01T15:42:28.433Z - info: Generating pages...
+2026-01-01T15:42:28.977Z - info: Pages built
+2026-01-01T15:42:29.061Z - info: Site data built
+2026-01-01T15:42:29.061Z - info: Website generation complete! Total build time: 0.728s
+2026-01-01T15:42:29.076Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:42:29.076Z - info: Press CTRL+C to stop ...
+2026-01-01T15:54:01.156Z - info: Website generation started at 11:54:01 PM
+2026-01-01T15:54:01.184Z - info: Building assets...
+2026-01-01T15:54:01.204Z - info: Assets built
+2026-01-01T15:54:01.205Z - info: Generating pages...
+2026-01-01T15:54:02.060Z - info: Pages built
+2026-01-01T15:54:02.305Z - info: Site data built
+2026-01-01T15:54:02.305Z - info: Website generation complete! Total build time: 1.189s
+2026-01-01T15:54:02.351Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-01T15:54:02.352Z - info: Press CTRL+C to stop ...

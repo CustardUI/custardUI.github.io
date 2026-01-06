@@ -1,0 +1,72 @@
+2026-01-03T03:34:23.086Z - info: [11:34:23 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:23.089Z - info: [11:34:23 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:24.097Z - info: Rebuilding 1 pages
+2026-01-03T03:34:24.097Z - info: Rebuilding 1 pages
+2026-01-03T03:34:24.137Z - info: Site data built
+2026-01-03T03:34:24.138Z - info: Site data built
+2026-01-03T03:34:24.138Z - info: Pages rebuilt
+2026-01-03T03:34:24.138Z - info: Website regeneration complete! Total build time: 0.042s
+2026-01-03T03:34:24.138Z - info: Pages rebuilt
+2026-01-03T03:34:24.138Z - info: Website regeneration complete! Total build time: 0.042s
+2026-01-03T03:34:25.096Z - info: [11:34:25 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:25.104Z - info: [11:34:25 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:26.098Z - info: Rebuilding 1 pages
+2026-01-03T03:34:26.105Z - info: Rebuilding 1 pages
+2026-01-03T03:34:26.127Z - info: Site data built
+2026-01-03T03:34:26.127Z - info: Pages rebuilt
+2026-01-03T03:34:26.127Z - info: Website regeneration complete! Total build time: 0.03s
+2026-01-03T03:34:26.134Z - info: Site data built
+2026-01-03T03:34:26.134Z - info: Pages rebuilt
+2026-01-03T03:34:26.134Z - info: Website regeneration complete! Total build time: 0.03s
+2026-01-03T03:34:27.122Z - info: [11:34:27 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:27.127Z - info: [11:34:27 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:34:28.124Z - info: Rebuilding 1 pages
+2026-01-03T03:34:28.129Z - info: Rebuilding 1 pages
+2026-01-03T03:34:28.148Z - info: Site data built
+2026-01-03T03:34:28.148Z - info: Pages rebuilt
+2026-01-03T03:34:28.148Z - info: Website regeneration complete! Total build time: 0.024s
+2026-01-03T03:34:28.152Z - info: Site data built
+2026-01-03T03:34:28.153Z - info: Pages rebuilt
+2026-01-03T03:34:28.153Z - info: Website regeneration complete! Total build time: 0.025s
+2026-01-03T03:35:13.716Z - info: [11:35:13 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:35:13.717Z - info: [11:35:13 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:35:14.718Z - info: Rebuilding 1 pages
+2026-01-03T03:35:14.719Z - info: Rebuilding 1 pages
+2026-01-03T03:35:14.749Z - info: Site data built
+2026-01-03T03:35:14.749Z - info: Site data built
+2026-01-03T03:35:14.749Z - info: Pages rebuilt
+2026-01-03T03:35:14.750Z - info: Website regeneration complete! Total build time: 0.03s
+2026-01-03T03:35:14.749Z - info: Pages rebuilt
+2026-01-03T03:35:14.749Z - info: Website regeneration complete! Total build time: 0.032s
+2026-01-03T03:35:20.486Z - info: [11:35:20 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:35:20.493Z - info: [11:35:20 AM] Reload for file change: /Users/gerteck/dev/customviews/docs/userGuide/gettingStarted.md
+2026-01-03T03:35:21.488Z - info: Rebuilding 1 pages
+2026-01-03T03:35:21.495Z - info: Rebuilding 1 pages
+2026-01-03T03:35:21.508Z - info: Site data built
+2026-01-03T03:35:21.508Z - info: Pages rebuilt
+2026-01-03T03:35:21.508Z - info: Website regeneration complete! Total build time: 0.021s
+2026-01-03T03:35:21.513Z - info: Site data built
+2026-01-03T03:35:21.514Z - info: Pages rebuilt
+2026-01-03T03:35:21.514Z - info: Website regeneration complete! Total build time: 0.019s
+2026-01-03T03:35:45.828Z - info: Website generation started at 11:35:45 AM
+2026-01-03T03:35:45.863Z - info: Building assets...
+2026-01-03T03:35:45.884Z - info: Assets built
+2026-01-03T03:35:45.884Z - info: Generating pages...
+2026-01-03T03:35:46.467Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/customviews/userGuide/components/configuration.html' found in file '/Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md'
+2026-01-03T03:35:46.468Z - info: Pages built
+2026-01-03T03:35:46.554Z - info: Site data built
+2026-01-03T03:35:46.554Z - info: Website generation complete! Total build time: 0.769s
+2026-01-03T03:35:46.554Z - info: Build success!
+2026-01-03T03:35:50.570Z - info: The website has been deployed at: https://customviews-js.github.io/customviews
+2026-01-03T03:35:54.281Z - info: Website generation started at 11:35:54 AM
+2026-01-03T03:35:54.308Z - info: Building assets...
+2026-01-03T03:35:54.328Z - info: Assets built
+2026-01-03T03:35:54.329Z - info: Generating pages...
+2026-01-03T03:35:54.876Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/customviews/userGuide/components/configuration.html' found in file '/Users/gerteck/dev/customviews/docs/userGuide/components/toggles.md'
+2026-01-03T03:35:54.876Z - info: Pages built
+2026-01-03T03:35:54.917Z - info: Site data built
+2026-01-03T03:35:54.917Z - info: Website generation complete! Total build time: 0.673s
+2026-01-03T03:35:54.931Z - info: Serving "/Users/gerteck/dev/customviews/docs/_site" at http://127.0.0.1:8080
+2026-01-03T03:35:54.932Z - info: Press CTRL+C to stop ...
