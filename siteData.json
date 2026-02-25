@@ -28,6 +28,25 @@
       "headingKeywords": {}
     },
     {
+      "src": "authorGuide/adaptations.md",
+      "title": "Author Guide - Site Adaptations",
+      "headings": {
+        "site-adaptations": "Site Adaptations",
+        "how-it-works": "How It Works",
+        "quick-start": "Quick Start",
+        "file-placement": "File Placement",
+        "adaptation-json-schema": "Adaptation JSON Schema",
+        "top-level-fields": "Top-level fields",
+        "theme": "theme",
+        "defaults": "defaults",
+        "state-layering-precedence": "State Layering Precedence",
+        "per-page-activation": "Per-Page Activation",
+        "clearing-an-adaptation": "Clearing an Adaptation",
+        "example-institution-adaptation-of-this-site": "Example: Institution Adaptation of this Site"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "authorGuide/components/all.md",
       "title": "Components",
       "headings": {
@@ -277,6 +296,12 @@
       "headingKeywords": {}
     },
     {
+      "src": "devGuide/tests/nonStickyHeader.md",
+      "title": "Developer Guide - Non Sticky Header",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "devGuide/tests/placeholders.md",
       "title": "Developer Guide - Placeholder Tests",
       "headings": {
@@ -296,13 +321,23 @@
     },
     {
       "src": "index.md",
-      "title": "Custom Views Library - Interactive Documentation & Demo",
+      "title": "CustardUI Library",
       "headings": {
-        "customviews": "CustomViews",
         "introduction": "Introduction",
-        "quick-demo": "Quick Demo",
+        "you-can-do-this": "You can do this:",
         "toggles": "Toggles",
-        "tabs": "Tabs"
+        "tabs": "Tabs",
+        "and-this-and-this-etc": "And this, and this etc."
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "nus/index.md",
+      "title": "NUS — CustomViews",
+      "headings": {
+        "welcome-username-nus": "Welcome, [[username]]! (NUS)",
+        "share-nus-theme-link-clear-adaptation": "Share NUS theme link | Clear adaptation",
+        "content-with-adaptation-defaults-applied": "Content with adaptation defaults applied"
       },
       "headingKeywords": {}
     },

@@ -70,8 +70,8 @@
       }
     ]
   },
-  "baseUrl": "/",
-  "storageKey": "cv-docs-prod",
+  "baseUrl": "/custard",
+  "storageKey": "cv-docs-beta",
   "settings": {
     "enabled": true,
     "panel": {
