@@ -9,7 +9,7 @@
 function getScripts() {
 	return [
 		// Local Development
-		'<script src="../../../dist/custardui.js" data-base-url="/betadocs"></script>'
+		'<script src="../../../dist/custardui.js" data-base-url="/"></script>'
 
 		// Latest Stable Release
 		// '<script src="https://unpkg.com/@customviews-js/customviews@v1" data-base-url="/"></script>'
