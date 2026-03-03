@@ -1,12 +1,12 @@
 /*!
- * @customviews-js/customviews v1.7.1
+ * @custardui/custardui v1.0.0
  * (c) 2026 Chan Ger Teck
  * Released under the MIT License.
  */
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define(['exports'], factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.CustomViews = {}));
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.CustardUI = {}));
 })(this, (function (exports) { 'use strict';
 
     /**
@@ -34,7 +34,7 @@
      */
     function getScriptAttributes() {
         let scriptTag = document.currentScript;
-        const defaults = { baseURL: '', configPath: '/customviews.config.json' };
+        const defaults = { baseURL: '', configPath: '/custardui.config.json' };
         if (!scriptTag || !scriptTag.hasAttribute('data-base-url')) {
             const dataAttrMatch = document.querySelector('script[data-base-url]');
             if (dataAttrMatch) {
@@ -44,7 +44,7 @@
                 // Fallback: try to find script by src pattern
                 for (const script of document.scripts) {
                     const src = script.src || '';
-                    if (/(?:custom[-_]views|@customviews-js\/customviews)(?:\.min)?\.(?:esm\.)?js($|\?)/i.test(src)) {
+                    if (/(?:custard(?:ui)?|@custardui\/custard(?:ui)?)(?:\.min)?\.(?:esm\.)?js($|\?)/i.test(src)) {
                         scriptTag = script;
                         break;
                     }
@@ -71,14 +71,14 @@
             const fullConfigPath = prependBaseUrl(configPath, baseURL);
             const response = await fetch(fullConfigPath);
             if (!response.ok) {
-                console.warn(`[CustomViews] Config file not found at ${fullConfigPath}. Using defaults.`);
+                console.warn(`[CustardUI] Config file not found at ${fullConfigPath}. Using defaults.`);
                 return fallbackMinimalConfig;
             }
             const config = await response.json();
             return config;
         }
         catch (error) {
-            console.error('[CustomViews] Error loading config file:', error);
+            console.error('[CustardUI] Error loading config file:', error);
             return fallbackMinimalConfig;
         }
     }
@@ -9206,7 +9206,7 @@
                     valid[key] = value;
                 }
                 else {
-                    console.warn(`[CustomViews] Placeholder "${key}" is not registered and will be ignored.`);
+                    console.warn(`[CustardUI] Placeholder "${key}" is not registered and will be ignored.`);
                 }
             }
             return valid;
@@ -9219,13 +9219,13 @@
             const existing = placeholderRegistryStore.get(id);
             if (existing) {
                 if (existing.source === 'config') {
-                    console.warn(`[CustomViews] Tab group "${groupConfig.groupId}" is binding to placeholder "${id}", ` +
+                    console.warn(`[CustardUI] Tab group "${groupConfig.groupId}" is binding to placeholder "${id}", ` +
                         `which is already explicitly defined in placeholders config. ` +
                         `To avoid unexpected behavior, placeholders should have a single source of truth.`);
                 }
                 else if (existing.source === 'tabgroup' &&
                     existing.ownerTabGroupId !== groupConfig.groupId) {
-                    console.warn(`[CustomViews] Multiple tab groups are binding to the same placeholderId: "${id}". ` +
+                    console.warn(`[CustardUI] Multiple tab groups are binding to the same placeholderId: "${id}". ` +
                         `Current group: "${groupConfig.groupId}", Existing group: "${existing.ownerTabGroupId}". ` +
                         `This will cause race conditions as both groups compete for the same value.`);
                 }
@@ -9507,7 +9507,7 @@
     			const match = this.getToggleConfigFromConfig(toggleId);
 
     			if (!match) {
-    				console.warn(`[CustomViews] Adaptation toggle "${toggleId}" is not in the config and will be ignored.`);
+    				console.warn(`[CustardUI] Toggle "${toggleId}" is not in the config and will be ignored.`);
 
     				continue;
     			}
@@ -9606,7 +9606,7 @@
     			const group = this.config.tabGroups?.find((g) => g.groupId.toLowerCase() === groupId.toLowerCase());
 
     			if (!group) {
-    				console.warn(`[CustomViews] Tab group "${groupId}" is not in the config and will be ignored.`);
+    				console.warn(`[CustardUI] Tab group "${groupId}" is not in the config and will be ignored.`);
 
     				continue;
     			}
@@ -9614,7 +9614,7 @@
     			const matchedTab = group.tabs.find((t) => t.tabId.toLowerCase() === tabId.toLowerCase());
 
     			if (!matchedTab) {
-    				console.warn(`[CustomViews] Tab "${tabId}" is not in group "${group.groupId}" and will be ignored.`);
+    				console.warn(`[CustardUI] Tab "${tabId}" is not in group "${group.groupId}" and will be ignored.`);
 
     				continue;
     			}
@@ -9631,7 +9631,7 @@
     	 */
     	filterValidToggles(incomingToggles) {
     		if (!this.config.toggles || this.config.toggles.length === 0) {
-    			incomingToggles.forEach((id) => console.warn(`[CustomViews] Toggle "${id}" is not in the config and will be ignored.`));
+    			incomingToggles.forEach((id) => console.warn(`[CustardUI] Toggle "${id}" is not in the config and will be ignored.`));
 
     			return [];
     		}
@@ -9642,7 +9642,7 @@
     			const match = this.getToggleConfigFromConfig(toggleId);
 
     			if (!match) {
-    				console.warn(`[CustomViews] Toggle "${toggleId}" is not in the config and will be ignored.`);
+    				console.warn(`[CustardUI] Toggle "${toggleId}" is not in the config and will be ignored.`);
 
     				continue;
     			}
@@ -10591,7 +10591,7 @@
                 return decodeURIComponent(item.replace(/\+/g, '%20'));
             }
             catch {
-                console.warn(`URLStateManager: Failed to decode ${paramName} item: ${item}`);
+                console.warn(`[CustardUI] URLStateManager: Failed to decode ${paramName} item: ${item}`);
                 return item;
             }
         })
@@ -10774,7 +10774,7 @@
     }
     // --- URL State Manager ---
     /**
-     * URL State Manager for CustomViews.
+     * URL State Manager for CustardUI.
      * Handles encoding/decoding of view states as human-readable URL parameters.
      *
      * URL Schema:
@@ -11280,7 +11280,7 @@
 
     var root_21 = from_html(`<button class="reset-btn svelte-16uy9h6" title="Reset to Default"><span><!></span> <span>Reset</span></button>`);
     var root_22 = from_html(`<div></div>`);
-    var root$e = from_html(`<div class="modal-overlay svelte-16uy9h6" role="presentation"><div class="modal-box cv-custom-state-modal svelte-16uy9h6" role="dialog" aria-modal="true"><header class="header svelte-16uy9h6"><div class="header-content svelte-16uy9h6"><div class="modal-icon svelte-16uy9h6"><!></div> <div class="title svelte-16uy9h6"> </div></div> <button class="close-btn svelte-16uy9h6" aria-label="Close modal"><!></button></header> <main class="main svelte-16uy9h6"><div class="tabs svelte-16uy9h6"><!> <button>Share</button></div> <!></main> <footer class="footer svelte-16uy9h6"><!> <a href="https://github.com/customviews-js/customviews" target="_blank" class="footer-link svelte-16uy9h6"><!> <span>View on GitHub</span></a> <button class="done-btn svelte-16uy9h6">Done</button></footer></div></div>`);
+    var root$e = from_html(`<div class="modal-overlay svelte-16uy9h6" role="presentation"><div class="modal-box cv-custom-state-modal svelte-16uy9h6" role="dialog" aria-modal="true"><header class="header svelte-16uy9h6"><div class="header-content svelte-16uy9h6"><div class="modal-icon svelte-16uy9h6"><!></div> <div class="title svelte-16uy9h6"> </div></div> <button class="close-btn svelte-16uy9h6" aria-label="Close modal"><!></button></header> <main class="main svelte-16uy9h6"><div class="tabs svelte-16uy9h6"><!> <button>Share</button></div> <!></main> <footer class="footer svelte-16uy9h6"><!> <a href="https://github.com/custardui/custardui" target="_blank" class="footer-link svelte-16uy9h6"><!> <span>View on GitHub</span></a> <button class="done-btn svelte-16uy9h6">Done</button></footer></div></div>`);
 
     const $$css$f = {
     	hash: 'svelte-16uy9h6',
@@ -13670,7 +13670,7 @@
     	pop();
     }
 
-    class CustomViewsUIManager {
+    class CustardUIManager {
         app = null;
         options;
         constructor(options) {
@@ -13736,7 +13736,7 @@
             isIntroSeen: () => runtime.isIntroSeen(),
             markIntroSeen: () => runtime.markIntroSeen(),
         };
-        const uiManager = new CustomViewsUIManager({
+        const uiManager = new CustardUIManager({
             callbacks,
             settingsEnabled,
             ...config.settings,
@@ -13807,22 +13807,22 @@
         }
         // --- Type-Safe State Accessors (Wrappers around generic storage) ---
         persistState(state) {
-            this.setItem('customviews-state', JSON.stringify(state));
+            this.setItem('custardUI-state', JSON.stringify(state));
         }
         getPersistedState() {
-            const raw = this.getItem('customviews-state');
+            const raw = this.getItem('custardUI-state');
             if (!raw)
                 return null;
             try {
                 return JSON.parse(raw);
             }
             catch (e) {
-                console.error('Failed to parse persisted state:', e);
+                console.error('[CustardUI] Failed to parse persisted state:', e);
                 return null;
             }
         }
         clearAll() {
-            this.removeItem('customviews-state');
+            this.removeItem('custardUI-state');
             this.removeItem('cv-tab-navs-visible');
         }
         persistTabNavVisibility(visible) {
@@ -14008,20 +14008,20 @@
                 const fetchUrl = new URL(jsonFile, new URL(directoryBase, window.location.origin)).toString();
                 const response = await fetch(fetchUrl);
                 if (!response.ok) {
-                    console.warn(`[CustomViews] Adaptation "${id}" could not be loaded (HTTP ${response.status}). Clearing stored adaptation.`);
+                    console.warn(`[CustardUI] Adaptation "${id}" could not be loaded (HTTP ${response.status}). Clearing stored adaptation.`);
                     this.clearStoredId(persistence);
                     return null;
                 }
                 const config = await response.json();
                 if (config.id !== id) {
-                    console.warn(`[CustomViews] Adaptation config ID mismatch: expected "${id}", got "${config.id}". Clearing stored adaptation.`);
+                    console.warn(`[CustardUI] Adaptation config ID mismatch: expected "${id}", got "${config.id}". Clearing stored adaptation.`);
                     this.clearStoredId(persistence);
                     return null;
                 }
                 return config;
             }
             catch (err) {
-                console.warn(`[CustomViews] Adaptation "${id}" failed to fetch:`, err, 'Clearing stored adaptation.');
+                console.warn(`[CustardUI] Adaptation "${id}" failed to fetch:`, err, 'Clearing stored adaptation.');
                 this.clearStoredId(persistence);
                 return null;
             }
@@ -15216,7 +15216,7 @@
     	}
 
     	/**
-    	 * Starts the CustomViews execution engine.
+    	 * Starts the CustardUI execution engine.
     	 *
     	 * Components (Toggle, TabGroup) self-register during their mount lifecycle.
     	 * This method starts the global observers for DOM changes and reactive state side-effects.
@@ -15515,7 +15515,7 @@
                 break;
             default:
                 el.innerHTML = asset.content || String(asset);
-                console.warn('[CustomViews] Unknown asset type:', type);
+                console.warn('[Custard] Unknown asset type:', type);
         }
     }
 
@@ -16474,22 +16474,22 @@
     // --- No Public API Exports ---
     // The script auto-initializes via initializeFromScript().
     /**
-     * Initialize CustomViews from script tag attributes and config file
+     * Initialize CustardUI from script tag attributes and config file
      * This runs automatically when the script is loaded.
      */
     function initializeFromScript() {
         // Only run in browser environment
         if (typeof window === 'undefined')
             return;
-        // Idempotency check
-        if (window.__customViewsInitialized) {
-            console.info('[CustomViews] Auto-init skipped: already initialized.');
+        // Idempotency check 
+        if (window.__custardUIInitialized) {
+            console.info('[CustardUI] Auto-init skipped: already initialized.');
             return;
         }
         document.addEventListener('DOMContentLoaded', async function () {
-            if (window.__customViewsInitInProgress || window.__customViewsInitialized)
+            if (window.__custardUIInitInProgress || window.__custardUIInitialized)
                 return;
-            window.__customViewsInitInProgress = true;
+            window.__custardUIInitInProgress = true;
             try {
                 // Get attributes from script tag
                 const { baseURL, configPath } = getScriptAttributes();
@@ -16514,7 +16514,7 @@
                         assetsManager = new AssetsManager(assetsJson, effectiveBaseURL);
                     }
                     catch (error) {
-                        console.error(`[CustomViews] Failed to load assets JSON from ${assetsPath}:`, error);
+                        console.error(`[Custard] Failed to load assets JSON from ${assetsPath}:`, error);
                         assetsManager = new AssetsManager({}, effectiveBaseURL);
                     }
                 }
@@ -16532,12 +16532,12 @@
                 runtime.start();
                 initUIManager(runtime, configFile);
                 // Mark initialized
-                window.__customViewsInitialized = true;
-                window.__customViewsInitInProgress = false;
+                window.__custardUIInitialized = true;
+                window.__custardUIInitInProgress = false;
             }
             catch (error) {
-                window.__customViewsInitInProgress = false;
-                console.error('[CustomViews] Auto-initialization error:', error);
+                window.__custardUIInitInProgress = false;
+                console.error('[CustardUI] Auto-initialization error:', error);
             }
         });
     }
@@ -16549,4 +16549,4 @@
     exports.initializeFromScript = initializeFromScript;
 
 }));
-//# sourceMappingURL=custom-views.js.map
+//# sourceMappingURL=custardui.js.map

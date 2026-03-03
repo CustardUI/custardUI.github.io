@@ -56,7 +56,7 @@
     },
     {
       "src": "authorGuide/components/placeholders.md",
-      "title": "CustomViews - Placeholders",
+      "title": "CustardUI - Placeholders",
       "headings": {
         "simple-placeholders-variable-interpolation": "Simple Placeholders (Variable Interpolation)",
         "usage": "Usage",
@@ -75,7 +75,7 @@
     },
     {
       "src": "authorGuide/components/settings.md",
-      "title": "CustomViews - Settings",
+      "title": "CustardUI - Settings",
       "headings": {
         "settings-dialog": "Settings Dialog",
         "settings-icon-trigger": "Settings Icon Trigger",
@@ -103,7 +103,7 @@
         "exiting-share-mode": "Exiting Share Mode",
         "focus-mode": "Focus Mode",
         "configurations": "Configurations",
-        "using-customviews-without-the-settings-dialog": "Using CustomViews without the Settings Dialog",
+        "using-custardui-without-the-settings-dialog": "Using CustardUI without the Settings Dialog",
         "customizing-share-behavior-wip": "Customizing Share Behavior ( WIP )"
       },
       "headingKeywords": {}
@@ -136,14 +136,14 @@
     },
     {
       "src": "authorGuide/components/toggles.md",
-      "title": "CustomViews - Toggle Component",
+      "title": "CustardUI - Toggle Component",
       "headings": {
         "toggles": "Toggles",
         "multi-id-toggles": "Multi-ID Toggles",
         "toggles-with-peek-mode": "Toggles with Peek Mode",
         "attributes-and-amp-options-of-cv-toggle": "Attributes &amp; Options of &lt;cv-toggle&gt;",
         "configuration": "Configuration",
-        "key-configuration-fields-in-customviews-config-json-for-toggles": "Key Configuration Fields in customviews.config.json for Toggles",
+        "key-configuration-fields-in-custardui-config-json-for-toggles": "Key Configuration Fields in custardui.config.json for Toggles",
         "visibility-resolution-order": "Visibility Resolution Order",
         "global-vs-local-toggles": "Global vs. Local Toggles",
         "registering-local-toggles-for-settings": "Registering Local Toggles for Settings",
@@ -156,7 +156,7 @@
       "title": "Author Guide - Configuration",
       "headings": {
         "configuration-reference": "Configuration Reference",
-        "configuration-file-customviews-config-json": "Configuration File (customviews.config.json)",
+        "configuration-file-custardui-config-json": "Configuration File (custardui.config.json)",
         "basic-structure": "Basic Structure",
         "summary-of-configuration-options": "Summary of Configuration Options",
         "core-configuration-config": "Core Configuration (config)",
@@ -173,7 +173,7 @@
       "title": "Author Guide - Getting Started",
       "headings": {
         "getting-started": "Getting Started",
-        "method-1-cdn-script-tag-recommended": "Method 1: CDN / Script Tag (Recommended)",
+        "method-1-cdn-script-tag": "Method 1: CDN / Script Tag",
         "method-2-install-via-npm": "Method 2: Install via NPM",
         "verify-installation": "Verify Installation"
       },
@@ -188,10 +188,10 @@
       "src": "authorGuide/integrations/setupWithMarkbind.md",
       "title": "Installation (MarkBind Setup)",
       "headings": {
-        "setting-up-customviews-in-a-markbind-site": "Setting up CustomViews in a MarkBind Site",
+        "setting-up-custardui-in-a-markbind-site": "Setting up CustardUI in a MarkBind Site",
         "create-the-plugin-file": "Create the Plugin File",
         "2-register-the-plugin-in-site-json": "2. Register the Plugin in site.json",
-        "3-create-customviews-config-json": "3. Create customviews.config.json"
+        "3-create-custardui-config-json": "3. Create custardui.config.json"
       },
       "headingKeywords": {}
     },
@@ -330,10 +330,10 @@
         "focus-and-amp-share": "Focus &amp; Share",
         "adaptations": "Adaptations",
         "zero-backend-any-site": "Zero Backend, Any Site",
-        "a-taste-of-custardui": "A taste of CustardUI",
         "answer-questions-with-a-link": "Answer questions with a link.",
         "one-resource-every-audience": "One resource. Every audience.",
         "up-and-running-in-minutes": "Up and running in minutes.",
+        "a-taste-of-custardui": "A taste of CustardUI",
         "make-your-site-work-for-every-reader": "Make your site work for every reader."
       },
       "headingKeywords": {}
@@ -380,50 +380,11 @@
     },
     {
       "src": "nus/index.md",
-      "title": "NUS — CustomViews",
+      "title": "NUS — CustardUI",
       "headings": {
         "welcome-username-nus": "Welcome, [[username]]! (NUS)",
         "share-nus-theme-link-clear-adaptation": "Share NUS theme link | Clear adaptation",
         "content-with-adaptation-defaults-applied": "Content with adaptation defaults applied"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "readerGuide/customComponents.md",
-      "title": "Focused Views",
-      "headings": {
-        "custom-components": "Custom Components"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "readerGuide/focusedViews.md",
-      "title": "Focused Views",
-      "headings": {
-        "focused-views": "Focused Views",
-        "focus-view-experience": "Focus View Experience",
-        "highlight-view-experience": "Highlight View Experience",
-        "navigation": "Navigation",
-        "advanced-readable-urls": "Advanced: Readable URLs"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "readerGuide/index.md",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
-      "src": "readerGuide/readerGuide.md",
-      "title": "Reader Guide",
-      "headings": {
-        "reader-guide": "Reader Guide",
-        "customizing-your-view": "Customizing Your View",
-        "the-settings-panel": "The Settings Panel",
-        "what-you-can-customize": "What You Can Customize",
-        "interactive-elements": "Interactive Elements",
-        "smart-tabs": "Smart Tabs",
-        "dynamic-toggles": "Dynamic Toggles"
       },
       "headingKeywords": {}
     }
