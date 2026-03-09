@@ -39,6 +39,7 @@
         "top-level-fields": "Top-level fields",
         "theme": "theme",
         "defaults": "defaults",
+        "author-controlled-placeholders-adaptationplaceholder": "Author-Controlled Placeholders (adaptationPlaceholder)",
         "state-layering-precedence": "State Layering Precedence",
         "per-page-activation": "Per-Page Activation",
         "clearing-an-adaptation": "Clearing an Adaptation",
@@ -63,6 +64,9 @@
         "add-the-placeholder-configuration": "Add the Placeholder Configuration",
         "use-the-placeholder": "Use the placeholder",
         "inline-fallback": "Inline Fallback",
+        "conditional-syntax-fall-forward": "Conditional Syntax (Fall-Forward)",
+        "user-set-vs-any-resolved-value": "User-Set vs. Any Resolved Value",
+        "placeholder-driven-toggle-visibility": "Placeholder-Driven Toggle Visibility",
         "html-attribute-interpolation": "HTML Attribute Interpolation",
         "escaping-syntax": "Escaping Syntax",
         "inline-editing-of-placeholders": "Inline Editing of Placeholders",
@@ -173,9 +177,13 @@
       "title": "Author Guide - Getting Started",
       "headings": {
         "getting-started": "Getting Started",
-        "method-1-cdn-script-tag": "Method 1: CDN / Script Tag",
-        "method-2-install-via-npm": "Method 2: Install via NPM",
-        "verify-installation": "Verify Installation"
+        "what-is-custardui": "What is CustardUI?",
+        "prerequisites": "Prerequisites",
+        "quick-start": "Quick Start",
+        "1-add-the-script-tag": "1. Add the Script Tag",
+        "2-create-a-config-file": "2. Create a Config File",
+        "3-use-features-and-components-in-your-content": "3. Use Features and Components in Your Content",
+        "what-s-next": "What's Next?"
       },
       "headingKeywords": {}
     },
@@ -192,6 +200,13 @@
         "create-the-plugin-file": "Create the Plugin File",
         "2-register-the-plugin-in-site-json": "2. Register the Plugin in site.json",
         "3-create-custardui-config-json": "3. Create custardui.config.json"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "design.md",
+      "headings": {
+        "colors": "Colors:"
       },
       "headingKeywords": {}
     },
@@ -306,7 +321,8 @@
       "title": "Developer Guide - Placeholder Tests",
       "headings": {
         "placeholder-tests": "Placeholder Tests",
-        "placeholders-from-config-work-with-tabgroup-on-page": "Placeholders from Config work with tabgroup on page:"
+        "placeholders-from-config-work-with-tabgroup-on-page": "Placeholders from Config work with tabgroup on page:",
+        "fall-forward-behavior": "Fall forward Behavior"
       },
       "headingKeywords": {}
     },
@@ -380,7 +396,7 @@
     },
     {
       "src": "nus/index.md",
-      "title": "NUS — CustardUI",
+      "title": "NUS — CustomViews",
       "headings": {
         "welcome-username-nus": "Welcome, [[username]]! (NUS)",
         "share-nus-theme-link-clear-adaptation": "Share NUS theme link | Clear adaptation",
