@@ -73,7 +73,8 @@
         "placeholder-input-attributes": "Placeholder-Input Attributes",
         "placeholder-configuration": "Placeholder Configuration",
         "tab-group-binding-and-amp-integration": "Tab Group Binding &amp; Integration",
-        "persistence": "Persistence"
+        "persistence": "Persistence",
+        "shareable-url": "Shareable URL"
       },
       "headingKeywords": {}
     },
@@ -134,7 +135,8 @@
         "json-configuration-option-types": "JSON Configuration Option Types",
         "binding-to-placeholders": "Binding to Placeholders",
         "global-vs-local-tab-groups": "Global vs. Local Tab Groups",
-        "defining-local-components": "Defining Local Components"
+        "defining-local-components": "Defining Local Components",
+        "shareable-url": "Shareable URL"
       },
       "headingKeywords": {}
     },
@@ -151,6 +153,7 @@
         "visibility-resolution-order": "Visibility Resolution Order",
         "global-vs-local-toggles": "Global vs. Local Toggles",
         "registering-local-toggles-for-settings": "Registering Local Toggles for Settings",
+        "shareable-url": "Shareable URL",
         "troubleshooting": "Troubleshooting"
       },
       "headingKeywords": {}
@@ -202,9 +205,41 @@
       "headingKeywords": {}
     },
     {
+      "src": "authorGuide/urlSharing.md",
+      "title": "CustardUI - URL Sharing",
+      "headings": {
+        "url-sharing": "URL Sharing",
+        "all-parameters": "All Parameters",
+        "view-state-parameters": "View State Parameters",
+        "settings-dialog-parameters": "Settings Dialog Parameters",
+        "focused-views-parameters": "Focused Views Parameters",
+        "tab-groups": "Tab Groups",
+        "placeholders": "Placeholders",
+        "combined-example-tabs-toggles-placeholders": "Combined Example (Tabs, Toggles, Placeholders)",
+        "encoding-of-url": "Encoding of URL",
+        "precedence": "Precedence",
+        "toggles": "Toggles",
+        "settings-dialog": "Settings Dialog",
+        "focused-views": "Focused Views",
+        "opening-share-mode": "Opening Share Mode",
+        "direct-focus-view-links": "Direct Focus View Links"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "design.md",
       "headings": {
         "colors": "Colors:"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/changesMade.md",
+      "title": "Changelog",
+      "headings": {
+        "changelog": "Changelog",
+        "v2-0-0": "v2.0.0",
+        "v1-7-0": "v1.7.0"
       },
       "headingKeywords": {}
     },
