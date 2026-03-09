@@ -165,10 +165,8 @@
         "summary-of-configuration-options": "Summary of Configuration Options",
         "core-configuration-config": "Core Configuration (config)",
         "global-options": "Global Options",
-        "settings-configuration-settings": "Settings Configuration (settings)",
-        "script-tag-attributes": "Script Tag Attributes",
-        "assets-configuration-assets-json": "Assets Configuration (assets.json)",
-        "asset-properties": "Asset Properties"
+        "settings-configuration-in-config-json-settings": "Settings Configuration in config.json: (settings)",
+        "script-tag-attributes": "Script Tag Attributes"
       },
       "headingKeywords": {}
     },
@@ -240,16 +238,15 @@
       "src": "devGuide/gitWorkflow.md",
       "title": "Developer Guide - Project Git Workflow",
       "headings": {
-        "gitflow-workflow": "Gitflow Workflow",
-        "example-of-a-gitflow-workflow": "Example of a Gitflow Workflow",
-        "branches-in-gitflow": "Branches in GitFlow",
-        "main-branch": "Main Branch",
-        "develop-branch": "Develop Branch",
-        "feature-branches": "Feature Branches",
-        "release-branches": "Release Branches",
-        "hotfix-branches": "Hotfix branches",
-        "feature-release-workflow": "Feature Release Workflow",
-        "summary": "Summary"
+        "simplified-gitflow-workflow": "Simplified Gitflow Workflow",
+        "core-workflow": "Core Workflow",
+        "branches": "Branches",
+        "main-production": "main (Production)",
+        "develop-integration-beta": "develop (Integration / Beta)",
+        "feature-development": "feature/* (Development)",
+        "maintenance-hotfixes": "Maintenance (Hotfixes)",
+        "comparison-to-gitflow": "Comparison to Gitflow",
+        "summary-of-release-steps": "Summary of Release Steps"
       },
       "headingKeywords": {}
     },
@@ -396,7 +393,7 @@
     },
     {
       "src": "nus/index.md",
-      "title": "NUS — CustomViews",
+      "title": "NUS — CustardUI Page",
       "headings": {
         "welcome-username-nus": "Welcome, [[username]]! (NUS)",
         "share-nus-theme-link-clear-adaptation": "Share NUS theme link | Clear adaptation",
