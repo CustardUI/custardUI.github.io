@@ -15,7 +15,7 @@ function getScripts() {
 		'<script src="https://cdn.jsdelivr.net/npm/@custardui/custardui" data-base-url="/"></script>'
 
 		// Latest Beta Release
-		//'<script src="https://unpkg.com/@custardui/custardui@beta" data-base-url="/"></script>'
+		// '<script src="https://unpkg.com/@custardui/custardui@beta" data-base-url="/betadocs"></script>'
 	];
 }
 

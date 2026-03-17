@@ -147,6 +147,7 @@
         "toggles": "Toggles",
         "multi-id-toggles": "Multi-ID Toggles",
         "toggles-with-peek-mode": "Toggles with Peek Mode",
+        "inline-controls": "Inline Controls",
         "attributes-and-amp-options-of-cv-toggle": "Attributes &amp; Options of &lt;cv-toggle&gt;",
         "configuration": "Configuration",
         "key-configuration-fields-in-custardui-config-json-for-toggles": "Key Configuration Fields in custardui.config.json for Toggles",
@@ -178,7 +179,7 @@
       "title": "Author Guide - Getting Started",
       "headings": {
         "getting-started": "Getting Started",
-        "what-is-custardui": "What is CustardUI?",
+        "what-s-in-this-guide": "What's in this guide",
         "prerequisites": "Prerequisites",
         "quick-start": "Quick Start",
         "1-add-the-script-tag": "1. Add the Script Tag",
@@ -229,7 +230,8 @@
     {
       "src": "design.md",
       "headings": {
-        "colors": "Colors:"
+        "colors": "Colors:",
+        "word-colors": "Word Colors"
       },
       "headingKeywords": {}
     },
@@ -239,6 +241,7 @@
       "headings": {
         "changelog": "Changelog",
         "v2-0-0": "v2.0.0",
+        "features-added": "Features Added",
         "v1-7-0": "v1.7.0"
       },
       "headingKeywords": {}
@@ -249,6 +252,36 @@
       "headings": {
         "how-do-the-components-work-rough-explanation": "How do the components work (rough explanation)",
         "placeholders": "Placeholders"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/components/anchor.md",
+      "title": "Developer Guide - DOM Element Locator and Anchors",
+      "headings": {
+        "overview": "Overview",
+        "the-problem-it-solves": "The Problem It Solves",
+        "core-concepts": "Core Concepts",
+        "1-the-anchor-descriptor": "1. The Anchor Descriptor",
+        "2-stable-text-and-amp-placeholder-awareness": "2. Stable Text &amp; Placeholder Awareness",
+        "3-serialization": "3. Serialization",
+        "4-resolution-fuzzy-matching": "4. Resolution (Fuzzy Matching)",
+        "data-flow": "Data Flow",
+        "module-layout": "Module Layout",
+        "key-considerations": "Key Considerations"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/components/tabLogic.md",
+      "title": "Developer Guide - Tab Logic",
+      "headings": {
+        "overview": "Overview",
+        "core-principles": "Core Principles",
+        "declarative-visibility": "Declarative Visibility",
+        "state-synchronization": "State Synchronization",
+        "layout-stabilization-scroll-anchoring": "Layout Stabilization (Scroll Anchoring)",
+        "key-considerations": "Key Considerations"
       },
       "headingKeywords": {}
     },
@@ -363,26 +396,21 @@
       "title": "Developer Guide - Tabs",
       "headings": {
         "tabs": "Tabs",
-        "fruits-tabs": "Fruits Tabs"
+        "fruits-tabs": "Fruits Tabs",
+        "color-schemes": "Color Schemes"
       },
       "headingKeywords": {}
     },
     {
       "src": "index.md",
-      "title": "CustardUI - Personalized, Interactive Static Websites",
+      "title": "CustardUI - Your docs, shaped for every reader",
       "headings": {
-        "one-site-many-readers-zero-compromise": "One site. Many readers. Zero compromise.",
-        "memory-persistent-tabs": "Memory-Persistent Tabs",
-        "content-toggles": "Content Toggles",
-        "dynamic-placeholders": "Dynamic Placeholders",
-        "focus-and-amp-share": "Focus &amp; Share",
-        "adaptations": "Adaptations",
-        "zero-backend-any-site": "Zero Backend, Any Site",
+        "custardui": "CustardUI",
+        "static-sites-don-t-have-to-be-static": "Static sites don't have to be static.",
         "answer-questions-with-a-link": "Answer questions with a link.",
         "one-resource-every-audience": "One resource. Every audience.",
         "up-and-running-in-minutes": "Up and running in minutes.",
-        "a-taste-of-custardui": "A taste of CustardUI",
-        "make-your-site-work-for-every-reader": "Make your site work for every reader."
+        "your-docs-shaped-for-every-reader": "Your docs, shaped for every reader."
       },
       "headingKeywords": {}
     },
