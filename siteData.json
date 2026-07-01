@@ -21,9 +21,10 @@
     },
     {
       "src": "about.md",
-      "title": "About Page",
+      "title": "About Us",
       "headings": {
-        "about-page": "About Page"
+        "about-us": "About Us",
+        "contributors": "Contributors ✨"
       },
       "headingKeywords": {}
     },
@@ -35,6 +36,7 @@
         "how-it-works": "How It Works",
         "quick-start": "Quick Start",
         "file-placement": "File Placement",
+        "configuring-the-adaptations-path": "Configuring the Adaptations Path",
         "per-page-activation": "Per-Page Activation",
         "activation-landing-page": "Activation Landing Page",
         "clearing-an-adaptation": "Clearing an Adaptation"
@@ -54,11 +56,29 @@
         "site-managed-placeholders": "Site-Managed Placeholders",
         "site-managed-toggles": "Site-Managed Toggles",
         "state-layering-precedence": "State Layering Precedence",
-        "example-institution-adaptation-of-this-site": "Example: Institution Adaptation of this Site",
+        "example-adaptation-of-this-site": "Example: Adaptation of this Site",
         "placeholder-adaptation-configurations-sitemanaged": "Placeholder Adaptation Configurations (siteManaged)",
         "toggle-adaptation-configurations-sitemanaged": "Toggle Adaptation Configurations (siteManaged)",
         "label-adaptation-configurations": "Label Adaptation Configurations",
         "tabgroup-adaptation-configurations": "TabGroup Adaptation Configurations"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/adaptations/insertions.md",
+      "title": "Author Guide - Adaptation Insertions",
+      "headings": {
+        "insertions": "Insertions",
+        "basic-syntax": "Basic Syntax",
+        "source-insertions-html-format": "Source insertions.html Format",
+        "attributes-of-cv-insertion": "Attributes of &lt;cv-insertion&gt;",
+        "attributes-of-div-in-insertions-html": "Attributes of &lt;div&gt; (in insertions.html)",
+        "component-rendering-behavior": "Component Rendering Behavior",
+        "default-content-in-insertions": "Default Content in Insertions",
+        "file-placement": "File Placement",
+        "custom-filename": "Custom Filename",
+        "adaptation-config": "Adaptation Config",
+        "troubleshooting": "Troubleshooting"
       },
       "headingKeywords": {}
     },
@@ -74,7 +94,11 @@
         "exercise-4-peer-review-and-amp-submission": "Exercise 4 — Peer Review &amp; Submission ",
         "institution-resources": "Institution Resources",
         "nus-resources": "NUS Resources",
-        "sample-institution-resources": "Sample Institution Resources"
+        "sample-institution-resources": "Sample Institution Resources",
+        "adopter-insertions": "Adopter Insertions",
+        "before-exercise-1": "Before Exercise 1",
+        "before-exercise-2": "Before Exercise 2",
+        "before-exercise-3": "Before Exercise 3"
       },
       "headingKeywords": {}
     },
@@ -96,6 +120,7 @@
         "configuration": "Configuration",
         "configuration-fields": "Configuration Fields",
         "shorthand-colors": "Shorthand Colors",
+        "rich-formatting-and-icons": "Rich Formatting and Icons",
         "adaptation-overrides": "Adaptation Overrides"
       },
       "headingKeywords": {}
@@ -144,24 +169,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "authorGuide/components/share.md",
-      "title": "Author Guide - Sharing",
-      "headings": {
-        "focused-views": "Focused Views",
-        "share-mode": "Share Mode",
-        "types-of-sharing": "Types of Sharing",
-        "toggling-share-mode": "Toggling Share Mode",
-        "selecting-elements": "Selecting Elements",
-        "generating-share-link": "Generating Share Link",
-        "exiting-share-mode": "Exiting Share Mode",
-        "focus-mode": "Focus Mode",
-        "configurations": "Configurations",
-        "using-custardui-without-the-settings-dialog": "Using CustardUI without the Settings Dialog",
-        "customizing-share-behavior-wip": "Customizing Share Behavior ( WIP )"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "authorGuide/components/tabs.md",
       "title": "Author Guide - Tabs",
       "headings": {
@@ -196,6 +203,7 @@
         "toggle-peek-mode": "Toggle Peek Mode",
         "multi-id-toggles": "Multi-ID Toggles",
         "placeholder-driven-toggles": "Placeholder-Driven Toggles",
+        "inline-toggles": "Inline Toggles",
         "attributes-of-cv-toggle": "Attributes of &lt;cv-toggle&gt;",
         "toggle-control": "Toggle Control",
         "attributes-of-cv-toggle-control": "Attributes of &lt;cv-toggle-control&gt;",
@@ -220,6 +228,50 @@
         "settings-configuration-in-config-json-settings": "Settings Configuration in config.json: (settings)",
         "global-options-in-custardui-config-json": "Global Options in custardui.config.json",
         "script-tag-attributes": "Script Tag Attributes"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/focusedViews/highlightModes.md",
+      "title": "Author Guide - Highlighting Modes",
+      "headings": {
+        "highlighting-modes": "Highlighting Modes",
+        "1-boxed-element-highlighting-cv-box": "1. Boxed Element Highlighting (cv-box)",
+        "features": "Features",
+        "url-parameter": "URL Parameter",
+        "2-text-highlighting-cv-highlight": "2. Text Highlighting (cv-highlight)",
+        "key-visual-and-amp-ux-features": "Key Visual &amp; UX Features",
+        "step-by-step-guide-creating-a-text-highlight": "Step-by-Step Guide: Creating a Text Highlight"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/focusedViews/shareModes.md",
+      "title": "Author Guide - Sharing",
+      "headings": {
+        "focused-views": "Focused Views",
+        "share-mode": "Share Mode",
+        "types-of-sharing": "Types of Sharing",
+        "toggling-share-mode": "Toggling Share Mode",
+        "selecting-elements": "Selecting Elements",
+        "generating-share-link": "Generating Share Link",
+        "exiting-share-mode": "Exiting Share Mode",
+        "focus-mode": "Focus Mode",
+        "configurations": "Configurations",
+        "using-custardui-without-the-settings-dialog": "Using CustardUI without the Settings Dialog",
+        "customizing-share-behavior-wip": "Customizing Share Behavior ( WIP )"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "authorGuide/focusedViews/showHideModes.md",
+      "title": "Author Guide - Sharing",
+      "headings": {
+        "show-and-hide-modes": "Show and Hide Modes",
+        "the-two-modes": "The Two Modes",
+        "viewer-experience-focus-view": "Viewer Experience (Focus View)",
+        "step-by-step-guide-creating-a-show-hide-link": "Step-by-Step Guide: Creating a Show/Hide Link",
+        "manual-url-construction": "Manual URL Construction"
       },
       "headingKeywords": {}
     },
@@ -289,6 +341,7 @@
       "title": "Changelog",
       "headings": {
         "changelog": "Changelog",
+        "v3-0-0": "v3.0.0",
         "v2-3": "v2.3.*",
         "v2-2": "v2.2.*",
         "v2-1": "v2.1.*",
@@ -308,7 +361,57 @@
       "headingKeywords": {}
     },
     {
-      "src": "devGuide/components/anchor.md",
+      "src": "devGuide/components/tabLogic.md",
+      "title": "Developer Guide - Tab Logic",
+      "headings": {
+        "overview": "Overview",
+        "core-principles": "Core Principles",
+        "declarative-visibility": "Declarative Visibility",
+        "state-synchronization": "State Synchronization",
+        "layout-stabilization-scroll-anchoring": "Layout Stabilization (Scroll Anchoring)",
+        "key-considerations": "Key Considerations"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/devGuide.md",
+      "title": "Contributing",
+      "headings": {
+        "developer-guide": "Developer guide",
+        "contributing": "Contributing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/development/settingUp.md",
+      "title": "Setting up",
+      "headings": {
+        "setting-up": "Setting up",
+        "prerequisites": "Prerequisites",
+        "setting-up-the-dev-environment": "Setting up the dev environment",
+        "development-workflow-and-amp-commands": "Development Workflow &amp; Commands",
+        "previewing-changes": "Previewing Changes"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/development/workflowAndRelease.md",
+      "title": "Developer Guide - Project Workflow and Releases",
+      "headings": {
+        "release-and-workflow-guide": "Release and Workflow Guide",
+        "branching-strategy": "Branching Strategy",
+        "core-branches": "Core Branches",
+        "the-development-lifecycle": "The Development Lifecycle",
+        "a-feature-development": "A. Feature Development",
+        "b-beta-releases-from-develop-branch": "B. Beta Releases (from develop branch)",
+        "c-production-release-from-main-branch": "C. Production Release (from main branch)",
+        "d-hotfix-releases-from-main-branch": "D. Hotfix Releases (from main branch)",
+        "cdn-usage": "CDN Usage"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "devGuide/focusedViews/anchor.md",
       "title": "Developer Guide - DOM Element Locator and Anchors",
       "headings": {
         "overview": "Overview",
@@ -325,23 +428,16 @@
       "headingKeywords": {}
     },
     {
-      "src": "devGuide/components/tabLogic.md",
-      "title": "Developer Guide - Tab Logic",
+      "src": "devGuide/focusedViews/urlEncoding.md",
+      "title": "Developer Guide - URL Encoding",
       "headings": {
         "overview": "Overview",
-        "core-principles": "Core Principles",
-        "declarative-visibility": "Declarative Visibility",
-        "state-synchronization": "State Synchronization",
-        "layout-stabilization-scroll-anchoring": "Layout Stabilization (Scroll Anchoring)",
-        "key-considerations": "Key Considerations"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "devGuide/devGuide.md",
-      "title": "Developer Guide",
-      "headings": {
-        "developer-guide": "Developer Guide"
+        "text-highlighting-cv-highlight": "Text Highlighting (?cv-highlight=)",
+        "1-element-id-format-e": "1. Element ID Format (e:)",
+        "2-container-id-format-c": "2. Container ID Format (c:)",
+        "3-fallback-format-base64-json": "3. Fallback Format (Base64 JSON)",
+        "encoding-safety": "Encoding Safety",
+        "resolution-flow-on-load": "Resolution Flow on Load"
       },
       "headingKeywords": {}
     },
@@ -424,22 +520,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "devGuide/workflowAndRelease.md",
-      "title": "Developer Guide - Project Workflow and Releases",
-      "headings": {
-        "release-and-workflow-guide": "Release and Workflow Guide",
-        "branching-strategy": "Branching Strategy",
-        "core-branches": "Core Branches",
-        "the-development-lifecycle": "The Development Lifecycle",
-        "a-feature-development": "A. Feature Development",
-        "b-beta-releases-from-develop-branch": "B. Beta Releases (from develop branch)",
-        "c-production-release-from-main-branch": "C. Production Release (from main branch)",
-        "d-hotfix-releases-from-main-branch": "D. Hotfix Releases (from main branch)",
-        "cdn-usage": "CDN Usage"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "index.md",
       "title": "CustardUI - Your docs, shaped for every reader",
       "headings": {
@@ -491,12 +571,17 @@
       "headingKeywords": {}
     },
     {
-      "src": "nus/index.md",
+      "src": "versions/nus/index.md",
       "headings": {},
       "headingKeywords": {}
     },
     {
-      "src": "sample/index.md",
+      "src": "versions/nus/insertions.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "versions/sample/index.md",
       "headings": {},
       "headingKeywords": {}
     }
